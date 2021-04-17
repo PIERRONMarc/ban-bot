@@ -4,16 +4,12 @@
   "description": "Ban bot is a Discord bot aiming to do different things about bans.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PIERRONMarc/ban-bot.git"
   },
-  "keywords": [
-    "Ban",
-    "bot"
-  ],
   "author": "PIERRON Marc",
   "license": "ISC",
   "bugs": {
