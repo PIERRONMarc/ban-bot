@@ -6,7 +6,7 @@ require('dotenv').config()
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setStatus('Octogone avec mamie | !ban help').catch(console.error);
+  client.user.setActivity('Octogone avec mamie | !ban help').catch(console.error);
 });
 
 client.on('message', async message => {
